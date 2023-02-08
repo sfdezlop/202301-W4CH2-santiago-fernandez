@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.birthdate {
+}
+.form {
+  background-color: brown;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.form fieldset label {
+  display: block;
+  padding: 0px;
+  color: white;
+}
+
+.form input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  width: 30%;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+}
