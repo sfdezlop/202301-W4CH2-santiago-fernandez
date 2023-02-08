@@ -19,7 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --watchAll --coverage",
+    "test:old": "jest --watchAll --coverage",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test:prod": "jest --watchAll --coverage --watchAll=false",
     "prepare": "husky install"
